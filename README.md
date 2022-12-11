@@ -1,7 +1,7 @@
 # alt:V TypeScript boilerplate
 
 Boilerplate for users of strict TypeScript on the alt:V platform.<br>
-Includes hot reload of the script during development (using esbuild with [altv-esbuild](https://github.com/xxshady/altv-esbuild)).
+Includes preinstalled eslint, hot reload of the script during development (using esbuild with [altv-esbuild](https://github.com/xxshady/altv-esbuild)).
 
 ## How to use:
 
