@@ -6,8 +6,8 @@ Includes preinstalled eslint, hot reload of the script during development (using
 ## How to use:
 
 ### Development
-1. `yarn setup-project`
-2. `yarn dev`
+1. `yarn setup-project` (installing npm deps, altv serverfiles)
+2. `yarn dev` (esbuild for building code & tsc for checking types)
 3. Run `server-dev.bat` in a separate terminal
 
 ### Production
