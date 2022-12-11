@@ -1,0 +1,17 @@
+name = "dev"
+
+modules = [
+  "js-module"
+]
+
+resources = [
+  "main"
+]
+
+debug = true
+
+[js-module]
+extra-cli-args = [
+  # resource restart in js module needs more memory
+  "--max-old-space-size=8192"
+]
