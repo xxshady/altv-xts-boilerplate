@@ -1,9 +1,13 @@
 # alt:V TypeScript boilerplate
 
 Boilerplate for users of strict TypeScript on the alt:V platform.<br>
-Includes preinstalled eslint, hot reload of the script during development (using esbuild with [altv-esbuild](https://github.com/xxshady/altv-esbuild)).
 
-## How to use:
+## What is included
+- configured typescript eslint config
+- hot reload of the script during development (using esbuild with [altv-esbuild](https://github.com/xxshady/altv-esbuild)).
+- parallel typescript checks during development
+
+## How to use
 
 ### Development
 1. `yarn setup-project` (installing npm deps, altv serverfiles)
