@@ -6,9 +6,12 @@
     "dev:server": "node --es-module-specifier-resolution=node build/server -dev",
     "dev:client": "node --es-module-specifier-resolution=node build/client -dev",
     "before-any": "yarn && node --es-module-specifier-resolution=node build/copy",
-    "dev": "yarn before-any && concurrently \"npm:dev:*\" -c 'blue.bold,magenta.bold,cyan.bold'",
-    "build": "yarn before-any && concurrently \"npm:build:*\" -c 'blue.bold,magenta.bold,cyan.bold'",
-    "upd-altv-types": "yarn add @altv/types-shared@latest @altv/types-client@latest @altv/types-server@latest @altv/types-natives@latest"
+    "dev": "yarn before-any && concurrently \"yarn:dev:*\" \"yarn:tsc\" -c \"magenta.bold,cyan.bold\"",
+    "build": "yarn before-any && concurrently \"yarn:build:*\"",
+    "upd-altv-types": "yarn add @altv/types-shared@latest @altv/types-client@latest @altv/types-server@latest @altv/types-natives@latest",
+    "tsc:server": "cd src/server && npx tsc -w",
+    "tsc:client": "cd src/client && npx tsc -w",
+    "tsc": "concurrently \"yarn:tsc:*\" -c \"magenta.bold,cyan.bold\""
   },
   "type": "module",
   "dependencies": {

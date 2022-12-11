@@ -14,10 +14,14 @@
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
     "noImplicitOverride": true,
+    "noEmit": true,
+    "preserveWatchOutput": true,
+    "pretty": true,
     "typeRoots": [
       "./node_modules/@altv",
       "./node_modules/@types",
       "./custom-types",
+      "./node_modules/altv-esbuild/altv-enums/types",
     ],
   },
 }
