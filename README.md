@@ -3,7 +3,6 @@
 Boilerplate for users of strict TypeScript on the alt:V platform.<br>
 
 ## What is included
-- configured typescript eslint config
 - hot reload of the script during development (using esbuild with [altv-esbuild](https://github.com/xxshady/altv-esbuild)).
 - parallel typescript checks during development
 
