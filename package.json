@@ -19,7 +19,7 @@
     "@altv/types-natives": "^1.4.8",
     "@altv/types-server": "^2.5.5",
     "@altv/types-shared": "^1.3.6",
-    "altv-esbuild": "^0.3.5",
+    "altv-esbuild": "^0.3.7",
     "altv-pkg": "^2.0.6",
     "concurrently": "^7.3.0",
     "esbuild": "^0.16.4",

@@ -132,10 +132,10 @@
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.16.4.tgz#6ec594468610c176933da1387c609558371d37e0"
   integrity sha512-sN/I8FMPtmtT2Yw+Dly8Ur5vQ5a/RmC8hW7jO9PtPSQUPkowxWpcUZnqOggU7VwyT3Xkj6vcXWd3V/qTXwultQ==
 
-altv-esbuild@^0.3.5:
-  version "0.3.5"
-  resolved "https://registry.yarnpkg.com/altv-esbuild/-/altv-esbuild-0.3.5.tgz#21611673e00fca0e97632a4cfa5bae8c20d59f1d"
-  integrity sha512-+YzMZm1lvCIVQYE0ClHKylRXClXcrIWdTdcBjxHkqdz8zYWIbW660NesdsN5XUsxN3ElZO3L31Ouq5NpZIVabA==
+altv-esbuild@^0.3.7:
+  version "0.3.7"
+  resolved "https://registry.yarnpkg.com/altv-esbuild/-/altv-esbuild-0.3.7.tgz#17dc0b64a3001f8bbb1000f700248b4fc60f7de9"
+  integrity sha512-lwMRK2NeUF8eaTC7GUDmd8OtFZl7fO7b6Z8UKtx1gSdPZWSBw/K5qf5wBh7lznb78Jra1ll1wQWRncX2sMz6fQ==
 
 altv-pkg@^2.0.6:
   version "2.0.7"
