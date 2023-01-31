@@ -1,6 +1,6 @@
 # alt:V TypeScript boilerplate
 
-Special thanks ❤️ to [innxz](https://github.com/innxz) for financially supporting me and this library.
+Special thanks ❤️ to [innxz](https://github.com/innxz) for financially supporting me and this boilerplate
 
 Boilerplate for users of strict TypeScript on the alt:V platform<br>
 
