@@ -1,6 +1,8 @@
 # alt:V TypeScript boilerplate
 
-Boilerplate for users of strict TypeScript on the alt:V platform.<br>
+Special thanks ❤️ to [innxz](https://github.com/innxz) for financially supporting me and this library.
+
+Boilerplate for users of strict TypeScript on the alt:V platform<br>
 
 > For extended boilerplate (rpc, vue3 included) see [extended branch](https://github.com/xxshady/altv-xts-boilerplate/tree/extended)
 
