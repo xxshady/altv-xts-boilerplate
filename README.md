@@ -2,6 +2,8 @@
 
 Boilerplate for users of strict TypeScript on the alt:V platform.<br>
 
+> For extended boilerplate (rpc, vue3 included) see [extended branch](https://github.com/xxshady/altv-xts-boilerplate/tree/extended)
+
 ## What is included
 - hot reload of the script during development (using esbuild with [altv-esbuild](https://github.com/xxshady/altv-esbuild)).
 - parallel typescript checks during development
