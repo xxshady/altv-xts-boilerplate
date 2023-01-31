@@ -1,11 +1,22 @@
 # alt:V TypeScript boilerplate
 
-Boilerplate for users of strict TypeScript on the alt:V platform.<br>
+Extended boilerplate for users of strict TypeScript on the alt:V platform.<br>
 
 ## What is included
-- hot reload of the script during development (using esbuild with [altv-esbuild](https://github.com/xxshady/altv-esbuild)).
-- parallel typescript checks during development
+- Hot reload of the script during development (using esbuild with [altv-esbuild](https://github.com/xxshady/altv-esbuild))
+- Parallel typescript checks during development
+- [altv-xrpc](https://github.com/xxshady/altv-xrpc) for request-response events
+- [Vue3](https://vuejs.org/guide/introduction.html) framework for UI
 
+## Project structure
+- [src/client](/src/client) client-side of TypeScript gamemode
+- [src/server](/src/server) server-side of TypeScript gamemode
+- [src/shared](/src/shared) shared of TypeScript gamemode
+- [build](/build) source code build scripts
+- [frontend](/frontend) Vite + Vue3 setup
+- [HelloWorld.vue](/frontend/src/components/HelloWorld.vue) frontend alt:V examples
+- [custom-types](/custom-types) global TypeScript types for some stuff
+- [custom-types/altv-xrpc/xrpc](/custom-types/altv-xrpc/xrpc) event interfaces of [altv-xrpc](https://github.com/xxshady/altv-xrpc)
 ## How to use
 
 ### Development

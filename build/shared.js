@@ -10,6 +10,9 @@ export const esbuildOptions = {
   sourcemap: dev ? "both" : false,
   minify: !dev,
   keepNames: dev,
+  define: {
+    ___DEV_MODE___: `${dev}`
+  }
 }
 
 export const altvEsbuildOptions = {

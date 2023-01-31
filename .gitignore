@@ -1,4 +1,4 @@
-/node_modules
+node_modules
 /modules
 /altv-server.exe
 /libnode.dll
@@ -10,3 +10,4 @@ resources/main/*
 /cache
 /*.log
 /server-prod.toml
+/frontend/dist

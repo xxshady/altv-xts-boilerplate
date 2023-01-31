@@ -5,6 +5,7 @@ modules = [
 ]
 
 resources = [
+  "main-view",
   "main"
 ]
 

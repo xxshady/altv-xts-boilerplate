@@ -1,27 +1,15 @@
 {
+  "extends": "./tsconfig.base.json",
   "compilerOptions": {
-    "module": "ESNext",
-    "target": "ESNext",
-    "strict": true,
-    "exactOptionalPropertyTypes": true,
-    "noUncheckedIndexedAccess": true,
-    "noPropertyAccessFromIndexSignature": true,
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "experimentalDecorators": true,
-    "allowSyntheticDefaultImports": true,
-    "isolatedModules": false,
-    "forceConsistentCasingInFileNames": true,
-    "noImplicitReturns": true,
-    "noImplicitOverride": true,
     "noEmit": true,
     "preserveWatchOutput": true,
     "pretty": true,
     "typeRoots": [
       "./node_modules/@altv",
       "./node_modules/@types",
-      "./custom-types",
       "./node_modules/altv-esbuild/altv-enums/types",
+      "./custom-types",
+      "custom-types/altv-xrpc"
     ],
   },
 }
