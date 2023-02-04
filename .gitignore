@@ -10,6 +10,3 @@ resources/main/*
 /cache
 /*.log
 /server-prod.toml
-!resources/main-view
-resources/main-view/*
-!resources/main-view/.gitkeep
