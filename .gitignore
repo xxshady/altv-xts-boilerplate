@@ -3,10 +3,15 @@ node_modules
 /altv-server.exe
 /libnode.dll
 /data
+
 resources/*
 !resources/main
 resources/main/*
 !resources/main/.gitkeep
+!resources/main-view
+resources/main-view/*
+!resources/main-view/.gitkeep
+
 /cache
 /*.log
 /server-prod.toml
