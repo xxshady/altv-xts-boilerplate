@@ -1,16 +1,12 @@
-import esbuild from "esbuild"
-import { altvEsbuild } from "altv-esbuild"
-import { altvEsbuildOptions, esbuildOptions } from "./shared"
+import { build } from "./shared"
 
-esbuild.build({
-  ...esbuildOptions,
-  platform: "node",
-  entryPoints: ["src/server/main.ts"],
-  outfile: "resources/main/server.js",
-  plugins: [
-    altvEsbuild({
-      ...altvEsbuildOptions,
-      mode: "server",
-    }),
-  ]
+build({
+  esbuild: {
+    platform: "node",
+    entryPoints: ["src/server/main.ts"],
+    outfile: "resources/main/server.js",
+  },
+  altvEsbuild: {
+    mode: "server",
+  }
 })

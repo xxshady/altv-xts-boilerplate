@@ -1,6 +1,8 @@
 # alt:V TypeScript boilerplate
 
-Extended boilerplate for users of strict TypeScript on the alt:V platform.<br>
+Special thanks ❤️ to [innxz](https://github.com/innxz) for financially supporting me and this boilerplate
+
+Extended boilerplate for users of strict TypeScript on the alt:V platform<br>
 
 ## What is included
 - Hot reload of the script during development (using esbuild with [altv-esbuild](https://github.com/xxshady/altv-esbuild))

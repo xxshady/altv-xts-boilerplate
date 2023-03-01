@@ -1,26 +1,47 @@
+import esbuild from "esbuild"
+import { altvEsbuild } from "altv-esbuild"
+
 const dev = process.argv[2] === "-dev"
 console.log("dev:", dev)
 
-export const esbuildOptions = {
-  bundle: true,
-  format: "esm",
-  target: "esnext",
-  logLevel: "info",
-  watch: dev,
-  sourcemap: dev ? "both" : false,
-  minify: !dev,
-  keepNames: dev,
-  define: {
-    ___DEV_MODE___: `${dev}`
-  }
-}
+export const build = async ({
+  esbuild: esbuildOptions,
+  altvEsbuild: altvEsbuildOptions,
+}) => {
+  const ctx = await esbuild.context({
+    bundle: true,
+    format: "esm",
+    target: "esnext",
+    logLevel: "info",
+    sourcemap: dev ? "both" : false,
+    minify: !dev,
+    keepNames: dev,
+    define: {
+      ___DEV_MODE___: `${dev}`
+    },
+    plugins: [
+      altvEsbuild({
+        dev: {
+          enabled: dev,
+          enhancedRestartCommand: true,
+        },
+        altvEnums: true,
+        bugFixes: {
+          playerDamageOnFirstConnect: true,
+        },
+        
+        ...altvEsbuildOptions,
+      })
+    ],
 
-export const altvEsbuildOptions = {
-  dev: (dev
-    ? {
-      enhancedRestartCommand: true,
-    }
-    : false
-  ),
-  altvEnums: true,
+    ...esbuildOptions,
+  })
+
+  if (dev) {
+    ctx.watch()
+  }
+  else {
+    ctx.rebuild()
+    ctx.dispose()
+  }
 }
