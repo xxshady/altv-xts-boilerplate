@@ -6,20 +6,12 @@
   version "2.4.4"
   resolved "https://registry.yarnpkg.com/@altv/types-client/-/types-client-2.4.4.tgz#868161364f5df1c60ec467bfef66b9d224dfcc36"
   integrity sha512-Dt5DiFigJnSL8MHD4YFX3wIiAC/qkg+gqakHNhJxC9lO7tW41P9elMYGNn240rw10IJDKrjNSe2soUrvHHdG/w==
-"@altv/types-client@^2.4.4":
-  version "2.4.4"
-  resolved "https://registry.yarnpkg.com/@altv/types-client/-/types-client-2.4.4.tgz#868161364f5df1c60ec467bfef66b9d224dfcc36"
-  integrity sha512-Dt5DiFigJnSL8MHD4YFX3wIiAC/qkg+gqakHNhJxC9lO7tW41P9elMYGNn240rw10IJDKrjNSe2soUrvHHdG/w==
 
 "@altv/types-natives@^1.4.8":
   version "1.4.8"
   resolved "https://registry.yarnpkg.com/@altv/types-natives/-/types-natives-1.4.8.tgz#2a7a234a5651e5c2bf1eef85a05ddf31861c2029"
   integrity sha512-WkyKCd1QLW94cNkq/KMbl+pZyXGxFDkRlnDhpwWmPlZwwQrGZkgHvj35vVa0QMfN8L53lCiaLPNJolX030oeuA==
 
-"@altv/types-server@^2.5.7":
-  version "2.5.7"
-  resolved "https://registry.yarnpkg.com/@altv/types-server/-/types-server-2.5.7.tgz#c87e5bed5e1e8b87574338afb463227821732048"
-  integrity sha512-kntuD2ylwX2wL2TJuArpkWsHrPlYYT4eNKfXglJppDYSIbUsxfvP1Kt3XdBfclaEMU63Jz64mMIJ4FC5M1gKKg==
 "@altv/types-server@^2.5.7":
   version "2.5.7"
   resolved "https://registry.yarnpkg.com/@altv/types-server/-/types-server-2.5.7.tgz#c87e5bed5e1e8b87574338afb463227821732048"
@@ -35,10 +27,10 @@
   resolved "https://registry.yarnpkg.com/@altv/types-webview/-/types-webview-1.0.5.tgz#3965e983ae038967173e72883036c0c715115f87"
   integrity sha512-g1bYnkLLxhJr6CBq0qFZoJtzs+20nEmHBMftlAGAgEJsyKR5HWf0NUi2mmUS50IpVEsULqgK+hx4uRZpXLmS7A==
 
-"@esbuild/android-arm64@0.16.16":
-  version "0.16.16"
-  resolved "https://registry.yarnpkg.com/@esbuild/android-arm64/-/android-arm64-0.16.16.tgz#833184b8a0a96f9c85105c53d0a67e6d3c5c3f07"
-  integrity sha512-hFHVAzUKp9Tf8psGq+bDVv+6hTy1bAOoV/jJMUWwhUnIHsh6WbFMhw0ZTkqDuh7TdpffFoHOiIOIxmHc7oYRBQ==
+"@esbuild/android-arm64@0.17.10":
+  version "0.17.10"
+  resolved "https://registry.yarnpkg.com/@esbuild/android-arm64/-/android-arm64-0.17.10.tgz#ad2ee47dd021035abdfb0c38848ff77a1e1918c4"
+  integrity sha512-ht1P9CmvrPF5yKDtyC+z43RczVs4rrHpRqrmIuoSvSdn44Fs1n6DGlpZKdK6rM83pFLbVaSUwle8IN+TPmkv7g==
 
 "@esbuild/android-arm@0.17.10":
   version "0.17.10"
