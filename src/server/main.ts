@@ -23,5 +23,5 @@ alt.log("playerValue:", playerValue) // undefined
 
 // ############ example of enums usage ############
 
-const blip = new alt.PointBlip(0, 0, 0)
+const blip = new alt.PointBlip(0, 0, 0, true)
 blip.color = BlipColor.Red
