@@ -22,10 +22,10 @@
   resolved "https://registry.yarnpkg.com/@altv/types-shared/-/types-shared-1.5.9.tgz#493a5886070a4a1a855a697afb8031bf61427740"
   integrity sha512-kXtRDbQRgfa6tTwbTs3Arlc6CO1FiEOHQX3GNhbwsTbFarwgnoDSXsiC7VlCMk46nEKwr5RL7SbsxRwYnJf/dA==
 
-"@altv/types-webview@^1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@altv/types-webview/-/types-webview-1.0.5.tgz#3965e983ae038967173e72883036c0c715115f87"
-  integrity sha512-g1bYnkLLxhJr6CBq0qFZoJtzs+20nEmHBMftlAGAgEJsyKR5HWf0NUi2mmUS50IpVEsULqgK+hx4uRZpXLmS7A==
+"@altv/types-webview@^1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@altv/types-webview/-/types-webview-1.0.6.tgz#2e7d55ec5d18d863814f657e0e33e3beeaa9ccb9"
+  integrity sha512-S+JySQU6orI3SoDSiewjMBK3q3n3uaUAER9NaXg0CSv9M+by9a5ipggjJrHeKy1jEVjwW7HolzA2vR9aDDBQ4g==
 
 "@esbuild/android-arm64@0.17.10":
   version "0.17.10"
@@ -137,28 +137,29 @@
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.17.10.tgz#ac779220f2da96afd480fb3f3148a292f66e7fc3"
   integrity sha512-oP+zFUjYNaMNmjTwlFtWep85hvwUu19cZklB3QsBOcZSs6y7hmH4LNCJ7075bsqzYaNvZFXJlAVaQ2ApITDXtw==
 
-altv-esbuild@^0.4.5:
-  version "0.4.5"
-  resolved "https://registry.yarnpkg.com/altv-esbuild/-/altv-esbuild-0.4.5.tgz#6ff555cae978fb79c1e17f240d3dc9232fff2b70"
-  integrity sha512-wlR1fBlv2z1qC2V9bxOSRlk7sNZ1i1mEkWNI4n0xBU3kpTyTOIOvKjXyUqx6hHAMv2BOH6/7t7kjZqvcGlkcxQ==
+altv-esbuild@^0.4.12:
+  version "0.4.12"
+  resolved "https://registry.yarnpkg.com/altv-esbuild/-/altv-esbuild-0.4.12.tgz#d94081e82da6e9e61d52f2fb276fd0ed6ac89bf2"
+  integrity sha512-WQVPvA4dU+EQYbCG50Ckj7TbpexaP1zVgVTaAKawzZAPrdDoa6RuXJRKG14K1uP/fofjwutULj+ZdDfZNqyq9A==
 
-altv-pkg@^2.0.10:
-  version "2.0.10"
-  resolved "https://registry.yarnpkg.com/altv-pkg/-/altv-pkg-2.0.10.tgz#cd1f0d54779fd8150ac2cfdfed2bbaab2bccf743"
-  integrity sha512-5bpISgfI2O7+3cWrDjcLsJ7sbljyp9nebuMdKj0fpBU9QR8ABHIqK7+/hMZRy7DbxEDDxtstNJ/qag0lyT5fBQ==
+altv-pkg@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/altv-pkg/-/altv-pkg-2.3.1.tgz#13fdebfcc312636d11c395d51a3ed11846884f7f"
+  integrity sha512-CL2DMFuu9GdPW2+UKe+T+0Otnf0fdhkFVnl4hVPko8WONqQd6v3l6QQX2hZu9o13xgJmlmH9P/MBHKNUfKkk7A==
   dependencies:
     axios "^0.26.1"
     chalk "^4.1.0"
+    discord-rpc "4.0.1"
 
 altv-xrpc-client@^0.3.2:
   version "0.3.2"
   resolved "https://registry.yarnpkg.com/altv-xrpc-client/-/altv-xrpc-client-0.3.2.tgz#b1a8465385f2dfd102470c6e93dccef1cfc0d68a"
   integrity sha512-PMJGTvVDjmLVwCxRUimo/gjZG9d4bwDaDhs1KKfkBAwIUiyUk78HYp9dSvdmo8ehUimlEt0H3a/I1LFS5mT2hw==
 
-altv-xrpc-server@^0.3.2:
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/altv-xrpc-server/-/altv-xrpc-server-0.3.2.tgz#a3bc58f65d9f86682215348315922fad488cbf24"
-  integrity sha512-7HjH8i5QSN9Mys7/LRJEallPBu5lM5oZsabh+1Oyt84PGttEytrb1O+LxZ2h2ub70neLdRGh8IqX46Niejd6Iw==
+altv-xrpc-server@^0.3.3:
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/altv-xrpc-server/-/altv-xrpc-server-0.3.3.tgz#246d7f96e36cd20068b81d3b05cdd8b576e4c867"
+  integrity sha512-KmNk04H6uT1fYzVqGZma/O5fhQPfp7BjG7ATNPRPyVvF8pANVGJBDBm/FkzHfzB/n0wuLpanELQbsmV8SWzTgQ==
 
 altv-xrpc-shared-types@^0.3.2:
   version "0.3.2"
@@ -188,6 +189,13 @@ axios@^0.26.1:
   integrity sha512-fPwcX4EvnSHuInCMItEhAGnaSEXRBjtzh9fOtsE6E1G6p7vl7edEeZe11QHf18+6+9gR5PbKV/sGKNaD8YaMeA==
   dependencies:
     follow-redirects "^1.14.8"
+
+bindings@^1.3.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/bindings/-/bindings-1.5.0.tgz#10353c9e945334bc0511a6d90b38fbc7c9c504df"
+  integrity sha512-p2q/t/mhvuOj/UeLlV6566GD/guowlr0hHxClI0W9m7MWYkL1F0hLo+0Aexs9HSPCtR1SXQ0TD3MMKrXZajbiQ==
+  dependencies:
+    file-uri-to-path "1.0.0"
 
 chalk@^4.1.0:
   version "4.1.2"
@@ -238,6 +246,16 @@ date-fns@^2.29.1:
   resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.29.3.tgz#27402d2fc67eb442b511b70bbdf98e6411cd68a8"
   integrity sha512-dDCnyH2WnnKusqvZZ6+jA1O51Ibt8ZMRNkDZdyAyK4YfbDwa/cEmuztzG5pk6hqlp9aSBPYcjOlktquahGwGeA==
 
+discord-rpc@4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/discord-rpc/-/discord-rpc-4.0.1.tgz#a89aa04a048aa83ad4f347d53fa0162501eae0d8"
+  integrity sha512-HOvHpbq5STRZJjQIBzwoKnQ0jHplbEWFWlPDwXXKm/bILh4nzjcg7mNqll0UY7RsjFoaXA7e/oYb/4lvpda2zA==
+  dependencies:
+    node-fetch "^2.6.1"
+    ws "^7.3.1"
+  optionalDependencies:
+    register-scheme "github:devsnek/node-register-scheme"
+
 emoji-regex@^8.0.0:
   version "8.0.0"
   resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-8.0.0.tgz#e818fd69ce5ccfcb404594f842963bf53164cc37"
@@ -276,6 +294,11 @@ escalade@^3.1.1:
   resolved "https://registry.yarnpkg.com/escalade/-/escalade-3.1.1.tgz#d8cfdc7000965c5a0174b4a82eaa5c0552742e40"
   integrity sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw==
 
+file-uri-to-path@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/file-uri-to-path/-/file-uri-to-path-1.0.0.tgz#553a7b8446ff6f684359c445f1e37a05dacc33dd"
+  integrity sha512-0Zt+s3L7Vf1biwWZ29aARiVYLx7iMGnEUl9x33fbB/j3jR81u/O2LbqK+Bm1CDSNDKVtJ/YjwY7TUd5SkeLQLw==
+
 follow-redirects@^1.14.8:
   version "1.15.2"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.2.tgz#b460864144ba63f2681096f274c4e57026da2c13"
@@ -300,6 +323,25 @@ lodash@^4.17.21:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
+
+node-addon-api@^1.3.0:
+  version "1.7.2"
+  resolved "https://registry.yarnpkg.com/node-addon-api/-/node-addon-api-1.7.2.tgz#3df30b95720b53c24e59948b49532b662444f54d"
+  integrity sha512-ibPK3iA+vaY1eEjESkQkM0BbCqFOaZMiXRTtdB0u7b4djtY6JnsjvPdUHVMg6xQt3B8fpTTWHI9A+ADjM9frzg==
+
+node-fetch@^2.6.1:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.7.0.tgz#d0f0fa6e3e2dc1d27efcd8ad99d550bda94d187d"
+  integrity sha512-c4FRfUm/dbcWZ7U+1Wq0AwCyFL+3nt2bEw05wfxSz+DWpWsitgmSgYmy2dQdWyKC1694ELPqMs/YzUSNozLt8A==
+  dependencies:
+    whatwg-url "^5.0.0"
+
+"register-scheme@github:devsnek/node-register-scheme":
+  version "0.0.2"
+  resolved "https://codeload.github.com/devsnek/node-register-scheme/tar.gz/e7cc9a63a1f512565da44cb57316d9fb10750e17"
+  dependencies:
+    bindings "^1.3.0"
+    node-addon-api "^1.3.0"
 
 require-directory@^2.1.1:
   version "2.1.1"
@@ -353,6 +395,11 @@ supports-color@^8.1.0:
   dependencies:
     has-flag "^4.0.0"
 
+tr46@~0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/tr46/-/tr46-0.0.3.tgz#8184fd347dac9cdc185992f3a6622e14b9d9ab6a"
+  integrity sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==
+
 tree-kill@^1.2.2:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/tree-kill/-/tree-kill-1.2.2.tgz#4ca09a9092c88b73a7cdc5e8a01b507b0790a0cc"
@@ -368,6 +415,19 @@ typescript@^4.9.5:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.9.5.tgz#095979f9bcc0d09da324d58d03ce8f8374cbe65a"
   integrity sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==
 
+webidl-conversions@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-3.0.1.tgz#24534275e2a7bc6be7bc86611cc16ae0a5654871"
+  integrity sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==
+
+whatwg-url@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/whatwg-url/-/whatwg-url-5.0.0.tgz#966454e8765462e37644d3626f6742ce8b70965d"
+  integrity sha512-saE57nupxk6v3HY35+jzBwYa0rKSy0XR8JSxZPwgLr7ys0IBzhGviA1/TUGJLmSVqs8pb9AnvICXEuOHLprYTw==
+  dependencies:
+    tr46 "~0.0.3"
+    webidl-conversions "^3.0.0"
+
 wrap-ansi@^7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-7.0.0.tgz#67e145cff510a6a6984bdf1152911d69d2eb9e43"
@@ -376,6 +436,11 @@ wrap-ansi@^7.0.0:
     ansi-styles "^4.0.0"
     string-width "^4.1.0"
     strip-ansi "^6.0.0"
+
+ws@^7.3.1:
+  version "7.5.9"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-7.5.9.tgz#54fa7db29f4c7cec68b1ddd3a89de099942bb591"
+  integrity sha512-F+P9Jil7UiSKSkppIiD94dN07AwvFixvLIj1Og1Rl9GGMuNipJnV9JzjD6XuqmAeiswGvUmNLjr5cFuXwNS77Q==
 
 y18n@^5.0.5:
   version "5.0.8"
