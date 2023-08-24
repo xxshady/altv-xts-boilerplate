@@ -34,7 +34,7 @@ rpcClientToServer()
 
 let url = ""
 if (___DEV_MODE___) {
-  url = "http://127.0.0.1:5173"
+  url = "http://localhost:5173"
 } else {
   url = "http://assets/main-view/dist/index.html"
 }
