@@ -2,25 +2,25 @@
 # yarn lockfile v1
 
 
-"@altv/types-client@^2.4.4":
-  version "2.4.4"
-  resolved "https://registry.yarnpkg.com/@altv/types-client/-/types-client-2.4.4.tgz#868161364f5df1c60ec467bfef66b9d224dfcc36"
-  integrity sha512-Dt5DiFigJnSL8MHD4YFX3wIiAC/qkg+gqakHNhJxC9lO7tW41P9elMYGNn240rw10IJDKrjNSe2soUrvHHdG/w==
+"@altv/types-client@^2.8.8":
+  version "2.8.8"
+  resolved "https://registry.yarnpkg.com/@altv/types-client/-/types-client-2.8.8.tgz#f302c48ffb34f95a323968ba7af9270bb76ad228"
+  integrity sha512-z33DaAG1MwxRIjxfQLFRIo358ONLxVEe0d4IDftW9OWug6yY+tb2JVa+Is+kMjyDj82a7CyJ29dSzj3QbT2uVQ==
 
-"@altv/types-natives@^1.4.8":
-  version "1.4.8"
-  resolved "https://registry.yarnpkg.com/@altv/types-natives/-/types-natives-1.4.8.tgz#2a7a234a5651e5c2bf1eef85a05ddf31861c2029"
-  integrity sha512-WkyKCd1QLW94cNkq/KMbl+pZyXGxFDkRlnDhpwWmPlZwwQrGZkgHvj35vVa0QMfN8L53lCiaLPNJolX030oeuA==
+"@altv/types-natives@^1.5.4":
+  version "1.5.4"
+  resolved "https://registry.yarnpkg.com/@altv/types-natives/-/types-natives-1.5.4.tgz#f999821ad5e11a0b8132a0ff8a7b8dfaf05dd328"
+  integrity sha512-N4jtJ4f8KFOCi0sxlVvTWF7I7Nz/ylq136sIJMpsHIcBWIlysWF6zdJFdBW5bkquDGWgY8aBYPQ4TU+ayQhukw==
 
-"@altv/types-server@^2.5.7":
-  version "2.5.7"
-  resolved "https://registry.yarnpkg.com/@altv/types-server/-/types-server-2.5.7.tgz#c87e5bed5e1e8b87574338afb463227821732048"
-  integrity sha512-kntuD2ylwX2wL2TJuArpkWsHrPlYYT4eNKfXglJppDYSIbUsxfvP1Kt3XdBfclaEMU63Jz64mMIJ4FC5M1gKKg==
+"@altv/types-server@^2.9.2":
+  version "2.9.2"
+  resolved "https://registry.yarnpkg.com/@altv/types-server/-/types-server-2.9.2.tgz#aa53f3b8f8ac907678179879b78daf24720c0a09"
+  integrity sha512-UuAxoUa38WbkkuQD1s2hUpFzWDoAx2MJAE3IOp+gT5LyRFGf2AKtjrY9tzx1I9Kuv4Pbn++atrTsRaEh5nXPRw==
 
-"@altv/types-shared@^1.3.6":
-  version "1.3.6"
-  resolved "https://registry.yarnpkg.com/@altv/types-shared/-/types-shared-1.3.6.tgz#f76ef5cdd15c6f9f50240ce224dd9e057a8ade96"
-  integrity sha512-1jEfqaqRKxiEoIHEo2th/d2LAHG7HqsiYPFTVv8v4XEhlt+Ny6hE1lX1OmGocCJH0oF7Pin+ZQekou28s5C6ug==
+"@altv/types-shared@^1.5.9":
+  version "1.5.9"
+  resolved "https://registry.yarnpkg.com/@altv/types-shared/-/types-shared-1.5.9.tgz#493a5886070a4a1a855a697afb8031bf61427740"
+  integrity sha512-kXtRDbQRgfa6tTwbTs3Arlc6CO1FiEOHQX3GNhbwsTbFarwgnoDSXsiC7VlCMk46nEKwr5RL7SbsxRwYnJf/dA==
 
 "@altv/types-webview@^1.0.5":
   version "1.0.5"
@@ -150,25 +150,25 @@ altv-pkg@^2.0.10:
     axios "^0.26.1"
     chalk "^4.1.0"
 
-altv-xrpc-client@^0.0.8:
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/altv-xrpc-client/-/altv-xrpc-client-0.0.8.tgz#d2c30e440e76bf8c8f46c5d0e48fe39fe6ebd8e4"
-  integrity sha512-iNo4PfrZ4JR05nAxPGSYMJAKxxEXQAsuPeil72R/92N0V4HpTnDoe2xzNS/2wIMKpf2JJdnYUvqFOrTQvkzPuQ==
+altv-xrpc-client@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/altv-xrpc-client/-/altv-xrpc-client-0.3.2.tgz#b1a8465385f2dfd102470c6e93dccef1cfc0d68a"
+  integrity sha512-PMJGTvVDjmLVwCxRUimo/gjZG9d4bwDaDhs1KKfkBAwIUiyUk78HYp9dSvdmo8ehUimlEt0H3a/I1LFS5mT2hw==
 
-altv-xrpc-server@^0.0.8:
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/altv-xrpc-server/-/altv-xrpc-server-0.0.8.tgz#2004f4fae077e2383a34a301c3ddf14be4bd97b6"
-  integrity sha512-+/lpVZy2ElmMmbl3fvEVQ0AxybsVPVWFyuUU2rgL4OmCv+7BZ/tFhoAJMiPI3jp0fAihOhMMvrJraDslxjdB/Q==
+altv-xrpc-server@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/altv-xrpc-server/-/altv-xrpc-server-0.3.2.tgz#a3bc58f65d9f86682215348315922fad488cbf24"
+  integrity sha512-7HjH8i5QSN9Mys7/LRJEallPBu5lM5oZsabh+1Oyt84PGttEytrb1O+LxZ2h2ub70neLdRGh8IqX46Niejd6Iw==
 
-altv-xrpc-shared-types@^0.0.8:
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/altv-xrpc-shared-types/-/altv-xrpc-shared-types-0.0.8.tgz#5b56cb8e82abbc8517b0e3c9b2bd949384e50066"
-  integrity sha512-7qV5w6sJzh6EmuqHQVbE6g6D7NQs5rAKtJt/MjAHNfU2YZhlLu0+JRtNP3qUL7y5pqFrkTWg9v0VTZNppcuB4A==
+altv-xrpc-shared-types@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/altv-xrpc-shared-types/-/altv-xrpc-shared-types-0.3.2.tgz#ccf3a971d613eb77f9201480b3ca18d4135a2469"
+  integrity sha512-hPHfQtGRsVqcuZT+WecosCrDiQJMH5fIg6lFKr40MTiJRD/asL5+pb4m5MSGLjZztVNMNJIAfm1Y3/q2Hj89og==
 
-altv-xrpc-shared@^0.0.8:
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/altv-xrpc-shared/-/altv-xrpc-shared-0.0.8.tgz#e4bf93f112693db8f4064e3cc3eabd5c3157b0f9"
-  integrity sha512-tjUIOIYRawPm1dJWIMHpMzIrC+CRrqaZOk2XSROkBeCHJ+2S6eZGOtBLw+4dwR/ZcGA8ZpI/zcUUvmRWQ7vNBw==
+altv-xrpc-shared@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/altv-xrpc-shared/-/altv-xrpc-shared-0.3.2.tgz#3413214c4864d6d5af9b3ba942f347839e6e93ac"
+  integrity sha512-Ki12jDa5TwkXfc4+kuc4hqLQthqx3K7tQUD9tJWDYzbSl3wqj4W29poyiWsT5sYa7XSDSlYGTLaXCn2D/r5VfQ==
 
 ansi-regex@^5.0.1:
   version "5.0.1"
