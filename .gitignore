@@ -1,6 +1,7 @@
 /node_modules
 /modules
 /altv-server.exe
+/altv-crash-handler.exe
 /libnode.dll
 /data
 resources/*
