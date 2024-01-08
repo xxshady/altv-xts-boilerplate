@@ -1,4 +1,4 @@
-import { build } from "./shared"
+import { build } from "./shared.js"
 
 build({
   esbuild: {

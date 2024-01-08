@@ -1,11 +1,11 @@
 {
   "scripts": {
     "setup-project": "yarn && altv-pkg release",
-    "build:server": "node --es-module-specifier-resolution=node build/server",
-    "build:client": "node --es-module-specifier-resolution=node build/client",
-    "dev:server": "node --es-module-specifier-resolution=node build/server -dev",
-    "dev:client": "node --es-module-specifier-resolution=node build/client -dev",
-    "before-any": "yarn && node --es-module-specifier-resolution=node build/copy",
+    "build:server": "node build/server",
+    "build:client": "node build/client",
+    "dev:server": "node build/server -dev",
+    "dev:client": "node build/client -dev",
+    "before-any": "yarn && node build/copy",
     "dev": "yarn before-any && concurrently \"yarn:dev:*\" \"yarn:tsc\" -c \"magenta.bold,cyan.bold\"",
     "build": "yarn before-any && concurrently \"yarn:build:*\"",
     "upd-altv-types": "yarn add @altv/types-shared@latest @altv/types-client@latest @altv/types-server@latest @altv/types-natives@latest",
