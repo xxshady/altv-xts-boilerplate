@@ -11,3 +11,4 @@ resources/main/*
 /cache
 /*.log
 /server-prod.toml
+.server-crashes-cache
