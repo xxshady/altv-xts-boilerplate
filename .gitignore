@@ -17,3 +17,4 @@ resources/main-view/*
 /*.log
 /server-prod.toml
 /frontend/dist
+/.server-crashes-cache
