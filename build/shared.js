@@ -27,9 +27,6 @@ export const build = async ({
           clientServerInstanceValidation: true,
         },
         altvEnums: true,
-        bugFixes: {
-          playerDamageOnFirstConnect: true,
-        },
         ...altvEsbuildOptions,
       })
     ],
