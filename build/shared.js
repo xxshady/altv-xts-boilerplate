@@ -21,12 +21,12 @@ export const build = async ({
         dev: {
           enabled: dev,
           enhancedRestartCommand: true,
+          clientServerInstanceValidation: true,
         },
         altvEnums: true,
         bugFixes: {
           playerDamageOnFirstConnect: true,
         },
-        
         ...altvEsbuildOptions,
       })
     ],
@@ -38,7 +38,7 @@ export const build = async ({
     ctx.watch()
   }
   else {
-    ctx.rebuild()
-    ctx.dispose()
+    await ctx.rebuild()
+    await ctx.dispose()
   }
 }
