@@ -1,5 +1,7 @@
 # repro
 
+issue: <https://github.com/altmp/altv-issues/issues/2260>
+
 1. `npm i`
 2. `npx altv-pkg dev`
 3. `npm run dev`
