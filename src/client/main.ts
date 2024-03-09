@@ -1,15 +1,31 @@
 import alt from "alt-client"
-import { SOMETHING } from "@shared/main"
-import { BlipColor } from "altv-enums"
 
-alt.log("hello world", SOMETHING)
+const pos = new alt.Vector3(0, 3, 72)
+let object: alt.LocalObject
+let webView: alt.WebView
+let audio: alt.Audio
+let audioOutput: alt.AudioOutputWorld
 
-const player = alt.Player.getByID(-1)
-// number | undefined too, see ICustomPlayerStreamSyncedMeta
-const playerValue = player?.getStreamSyncedMeta("numberExample")
-alt.log("playerValue:", playerValue) // undefined
+new alt.Utils.ConsoleCommand('bug', () => {
+    const modelHash = alt.hash('prop_tv_flat_01_screen')
+    object = new alt.LocalObject(modelHash, pos, alt.Vector3.zero)
 
-// ############ example of enums usage ############
+    object.waitForSpawn().then(() => {
+        alt.log('object spawned')
+        webView = new alt.WebView('https://youtu.be/gE6QH3pvklw', modelHash, 'script_rt_tvscreen')
+        audioOutput = new alt.AudioOutputWorld(pos)
+        webView.addOutput(audioOutput)
+    })
+})
 
-const blip = new alt.PointBlip(0, 10, 0)
-blip.color = BlipColor.LemonGreen
+new alt.Utils.ConsoleCommand('nobug', () => {
+    object?.destroy()
+    webView?.destroy()    
+    audio?.destroy()
+    audioOutput?.destroy()
+
+    audio = new alt.Audio('@audio/YUZC+MP4oEN4d7Mrtg.mp3', 1.0)
+    audioOutput = new alt.AudioOutputWorld(pos)
+    audio.addOutput(audioOutput)
+    audio.play()
+})

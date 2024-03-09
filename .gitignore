@@ -4,7 +4,6 @@
 /altv-crash-handler.exe
 /libnode.dll
 /data
-resources/*
 !resources/main
 resources/main/*
 !resources/main/.gitkeep

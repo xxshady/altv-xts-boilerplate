@@ -1,17 +1,11 @@
 name = "dev"
-
-modules = [
-  "js-module"
-]
-
-resources = [
-  "main"
-]
+modules = ["js-module"]
+resources = ["audio", "main"]
 
 debug = true
 
 [js-module]
 extra-cli-args = [
   # resource restart in js module needs more memory
-  "--max-old-space-size=8192"
+  "--max-old-space-size=8192",
 ]
