@@ -2,6 +2,8 @@
 
 issue: <https://github.com/altmp/altv-issues/issues/2260>
 
+repro code: <https://github.com/xxshady/altv-xts-boilerplate/blob/3d-cef-audio-bug/src/client/main.ts>
+
 1. `npm i`
 2. `npx altv-pkg dev`
 3. `npm run dev`
